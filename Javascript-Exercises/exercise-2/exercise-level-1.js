@@ -109,6 +109,7 @@ console.log(listOf_A);
 let st6 = "30 Days of".concat(" JavaScript");
 console.log(st6);
 
+
 //Use repeat() method to print 30 Days Of JavaScript 2 times
 
 
