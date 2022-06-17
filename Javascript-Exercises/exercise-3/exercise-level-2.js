@@ -136,13 +136,13 @@ var x = parseInt(prompt("Enter the  value of x"));
 
 //10
 
- var str = "Ayush Gupta";
+ var str = "Deeksha Singh";
  str.length > 7 ? console.log("Your name is long") : console.log("Your name is short");
 
 //11
 
- var firstName = "Ayush"
- var lastName = "Gupta"
+ var firstName = "Deeksha"
+ var lastName = "Singh"
 
  firstName.length > lastName.length ? console.log("Your first name, Ayush is longer than your family name, Gupta") : console.log("Your first name, Ayush is shorter than your family name, Gupta");
 
