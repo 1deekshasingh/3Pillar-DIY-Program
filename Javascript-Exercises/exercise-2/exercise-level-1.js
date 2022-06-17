@@ -57,3 +57,59 @@ console.log(string.charCodeAt(12));
 //Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
 
 console.log(string.indexOf('a'));
+
+//Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
+
+console.log(challenge.lastIndexOf("a"));
+
+//Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+let str =
+  "You cannot end a sentence with because because because is a conjunction";
+console.log(str.indexOf("because", 1));
+
+//Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+let str1 =
+  "You cannot end a sentence with because because because is a conjunction";
+console.log(str1.lastIndexOf("because"));
+
+//Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+let str2 =
+  "You cannot end a sentence with because because because is a conjunction";
+console.log(str2.search("because"));
+
+
+//Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+
+let str3 = "  30 Days of JavaScript  ";
+console.log(str3.trim());
+
+//Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+
+let str4 = "30 Days of JavaScript";
+console.log(str4.startsWith("30"));
+
+//Use endsWith() method with the string 30 Days Of JavaScript and make the result true
+
+let str5 = "30 Days of JavaScript";
+console.log(str5.endsWith("t"));
+
+
+//Use match() method to find all the a’s in 30 Days Of JavaScript
+
+let pattern = /a/gi;
+let listOf_A = challenge.match(pattern);
+console.log(listOf_A);
+
+
+//Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+
+let st6 = "30 Days of".concat(" JavaScript");
+console.log(st6);
+
+//Use repeat() method to print 30 Days Of JavaScript 2 times
+
+
+console.log(challenge.repeat(2));
