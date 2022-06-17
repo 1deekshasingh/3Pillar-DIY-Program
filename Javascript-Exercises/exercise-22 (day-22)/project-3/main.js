@@ -1,4 +1,4 @@
-import {asabenehChallenges2020} from "./info.js";
+import {asabenehChallenges2020} from "./fileinfo.js";
 
 document.body.style.fontFamily = 'san-serif, helvetica';
 
