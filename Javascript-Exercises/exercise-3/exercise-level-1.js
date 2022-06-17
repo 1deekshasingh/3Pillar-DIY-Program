@@ -50,10 +50,10 @@
 
 //1
 
-var firstName = "Ayush";
-var lastName = "Gupta";
+var firstName = "Deeksha";
+var lastName = "Singh";
 var country = "India";
-var age = 21;
+var age = 19;
 var isMarried = false;
 var year = 2022;
 
@@ -76,13 +76,13 @@ console.log(parseInt("9.8") == 10);
 
 //  true statements
 console.log(1 < 2);
-console.log("ayush".length > "".length);
+console.log("Deeksha".length > "".length);
 console.log(typeof true == typeof false);
 
 // fasle statements
 
 console.log(1 > 2);
-console.log("ayush".length < "".length);
+console.log("Deeksha".length < "".length);
 console.log(typeof true != typeof false);
 
 //5
